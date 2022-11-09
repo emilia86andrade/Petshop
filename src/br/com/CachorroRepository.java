@@ -29,7 +29,7 @@ public class CachorroRepository {
     }
 
     public void imprimeCachorrosCadastrados(){
-        System.out.println("-----------Dogs Cadastrados ca Classe Cachorro Repository-----------");
+        System.out.println("-----------Dogs Cadastrados na Classe Cachorro Repository-----------");
         boolean existeCachorroCadastrado = false;
         for (Cachorro cachorro: cachorrosCadastrados){
             if (Objects.nonNull(cachorro)){
