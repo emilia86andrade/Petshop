@@ -27,13 +27,7 @@ public class Teste {
         cachorro3.setEstaDoente(false);
 
 
-        //System.out.println("-----------Dods Cadastrados na Classe Teste------------");
-        //System.out.println(cachorro1);
-        //System.out.println(cachorro2);
-        //System.out.println(cachorro3);
-
-
-        //imprimindo da ClasseRepositry
+       //imprimindo da ClasseRepositry
         CachorroRepository cachorroRepository = new CachorroRepository();
         cachorroRepository.cadastra(cachorro1);
         cachorroRepository.cadastra(cachorro2);
